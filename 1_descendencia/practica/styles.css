@@ -1,0 +1,27 @@
+.pregunta1 {
+    background-color: rgb(128, 69, 2);
+}
+.pregunta2 {
+    background-color: rgba(238, 162, 70, 0.966);
+    border: solid black;
+}
+
+.pregunta3 {
+    color: rgb(204, 240, 229);
+}
+
+.pregunta4 {
+    font-size: 20px;
+}
+
+.pregunta6 {
+    background-color: rgb(247, 41, 120);
+}
+
+.pregunta7 {
+    color: chocolate;
+}
+
+.pregunta8 {
+    color: rgb(20, 220, 47);
+}
