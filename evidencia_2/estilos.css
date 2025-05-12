@@ -26,4 +26,8 @@ section h2 + p {
 elemento "h3" y sean hermanos*/
 aside h3 ~ p {
     color: indigo;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 094be8d21e41ea6dc2a3cde5296723714242b497

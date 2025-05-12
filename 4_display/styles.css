@@ -1,0 +1,67 @@
+.contenedor1{
+    /*
+        DISPLAY BLOCK
+        -utiliza por defecto todo el ancho disponible 
+        de la pantalla
+        -se le puede poner propiedades como: 
+            * ancho, alto, padding, marging,etc
+        - el siguiente elemento se mostrará 
+        en la siguiente linea
+        - Por defecto lo uan los: h, p, div, section
+    */
+
+    display: block;
+    background: blue ;
+    height: 150px;
+}
+.contenedor2 {
+    display: block;
+    color: white;
+    background: tomato;
+    width: 500px;
+    height: 150px;
+}
+.contenedor3{
+    /*
+        DISPLAY INLINE
+        -No se le puede aplicar
+            propiedades de ancho,
+            alto, padding, etc
+        -el siguiente elemento se mostrará
+            en la misma línea, con un espacio
+        -Por defecto lo usan: span, a, img
+    */
+    display: inline-block;
+    background: lightgreen;
+ 
+}
+/*este contenedor se coloca alineado con el anterior*/
+.contenedor4{
+    display: inline;
+    background: goldenrod;
+ 
+}
+.contenedor5{
+    /*
+        DISPLAY INLINE
+        -Los elementos siguientes se muestran
+            en la misma linea (inline)
+        -Se les pueden aplicar propiedades de 
+            *ancho, alto, padding, margin(block)
+    */
+    display: inline-block;
+    background: violet;
+    width: 200px;
+    height: 150px;
+ 
+}
+.contenedor6 {
+    display: inline-block;
+    background: lightskyblue;
+    width: 200px;
+    height: 150px;
+}
+
+/*Modelo de caja: 
+    define cómo se mostrarán los elementos definidos como:
+        block, inline-block*/
